@@ -57,10 +57,7 @@ alias bp='vim ~/.bash_profile'
 alias vs='~/bin/vs.sh'
 alias backup='~/bin/backup.sh'
 alias storage='ls -alGhp /Volumes/STORAGE/bkup'
-alias ohpush='cd ~/projects/OH-API; git push https://github.com/ciscoo/officehours-api.git'
-alias ohssh='ssh root@104.131.123.119'
 alias chrome='open -a Google\ Chrome'
-alias dock='~/bin/docker_shit.sh'
 #Do more magicks pls
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
