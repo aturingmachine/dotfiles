@@ -23,7 +23,10 @@ augroup ProjectDrawer
 augroup END
 
 " This is where we set custom leader mappings
-let mapleader = "`"
+let mapleader = "\\"
+
+" ff will exit insert mode
+inoremap ff <Esc>
 
 " `` will write current buffer
 nnoremap <leader><leader> :w<cr>
