@@ -1,7 +1,7 @@
 
 syntax on
 set number
-colorscheme angr
+colorscheme peachpuff
 
 set expandtab
 set tabstop=2
@@ -25,23 +25,34 @@ augroup END
 " This is where we set custom leader mappings
 let mapleader = "\\"
 
-" ff will exit insert mode
-inoremap ff <Esc>
+" jj will exit insert mode
+inoremap jj <Esc>
 
-" `` will write current buffer
-nnoremap <leader><leader> :w<cr>
+" ^s will save current buffer
+inoremap <C-s> :w <cr>
 
-" ` will write quit all
-nnoremap <leader> :wqall<cr>
+" Space Space will enter insert mode
+nnoremap <Space><Space> i
 
-" `s will split the current buffer to a new pane
+" leader leader will swap panes
+nnoremap <leader><leader> <C-w><C-w>
+
+" leader w will do a write
+nnoremap <leader>w :w<cr>
+
+" leader a will write quit all
+nnoremap <leader>a :wqall<cr>
+
+" leader s will split the current buffer to a new pane
 nnoremap <leader>s :vsplit <cr>
 
-" `q will do a qall!
+" leader q will do a qall!
 nnoremap <leader>q :qall!<cr>
 
-" `c will close current split window
+" leader c will close current split window
 nnoremap <leader>c <C-w>c
+
+noremap <C-]> /[\({] <cr> n <Esc>
 
 :autocmd InsertEnter,InsertLeave * set cul!
 
