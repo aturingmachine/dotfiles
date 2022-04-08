@@ -1,138 +1,32 @@
 {
-    "telemetry.enableTelemetry": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "materialTheme.accent": "Pink",
-    "workbench.colorCustomizations": {
-        "activityBar.activeBorder": "#e4a2db",
-        "activityBarBadge.background": "#e4a2db",
-        "breadcrumb.activeSelectionForeground": "#e4a2db",
-        "editor.findMatchBorder": "#e4a2db",
-        "editor.lineHighlightBackground": "#8a8a8a50",
-        "editor.selectionBackground": "#5aa0576e",
-        "editor.selectionHighlightBackground": "#856234",
-        "editor.wordHighlightBackground": "#dfd7aa80",
-        "editorBracketMatch.background": "#898a67",
-        "editorError.foreground": "#eb8596",
-        "editorSuggestWidget.highlightForeground": "#e4a2db",
-        "editorWarning.foreground": "#ebbf85",
-        "editorWidget.border": "#e4a2db",
-        "editorWidget.resizeBorder": "#e4a2db",
-        "list.activeSelectionForeground": "#e4a2db",
-        "list.highlightForeground": "#e4a2db",
-        "list.inactiveSelectionForeground": "#e4a2db",
-        "menu.selectionForeground": "#e4a2db",
-        "menubar.selectionForeground": "#e4a2db",
-        "notificationLink.foreground": "#e4a2db",
-        "panelTitle.activeBorder": "#e4a2db",
-        "pickerGroup.foreground": "#e4a2db",
-        "progressBar.background": "#e4a2db",
-        "scrollbarSlider.activeBackground": "#e4a2db50",
-        "selection.background": "#e4a2db40",
-        "settings.headerForeground": "#e4a2db",
-        "settings.modifiedItemIndicator": "#e4a2db",
-        "statusBarItem.remoteBackground": "#e4a2db",
-        "tab.activeBorder": "#e4a2db",
-        "editorCursor.foreground": "#ff00dd",
-        "textLink.foreground": "#e4a2db",
-        "statusBar.background": "#1a52c4",
-        "statusBar.noFolderBackground": "#1a52c4",
-        "statusBar.debuggingBackground": "#1a52c4",
-        "statusBar.foreground": "#FFF",
-        "statusBar.debuggingForeground": "#FFF"
-    },
-    "editor.wordWrap": "on",
-    "vetur.ignoreProjectWarning": true,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "stylelint.enable": true,
-    "ruby.intellisense": "rubyLocate",
-    "[javascript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
+    "editor.fontSize": 12,
+    "editor.suggest.showInlineDetails": true,
+    "window.titleBarStyle": "custom",
+    "editor.minimap.showSlider": "always",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.colorTheme": "Tokyo Night",
+    "files.autoSave": "onFocusChange",
+    "eslint.alwaysShowStatus": true,
     "editor.formatOnSave": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
-        "editor.formatOnSave": false
-    },
-    "[*.ejs]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[scss]": {
-        "editor.formatOnSave": false
-    },
-    "files.insertFinalNewline": true,
-    "editor.tabSize": 2,
-    "[vue]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "eslint.lintTask.options": "",
-    "gitlens.views.commits.files.layout": "list",
-    "gitlens.blame.format": "${author|12?} ${agoOrDate|14-}",
-    "gitlens.blame.highlight.locations": [
-        "gutter",
-        "line",
-        "overview"
-    ],
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "files.associations": {
-        "*.js": "javascript",
-        "*.env.*": "env",
-    },
-    "extensions.ignoreRecommendations": true,
     "eslint.format.enable": true,
-    "eslint.onIgnoredFiles": "warn",
-    "editor.snippetSuggestions": "top",
+    "eslint.debug": false,
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "vetur.format.defaultFormatterOptions": {
-        "js-beautify-html": {
-            "wrap_attributes": "force-expand-multiline"
-        },
-        "prettyhtml": {
-            "printWidth": 100,
-            "singleQuote": false,
-            "wrapAttributes": false,
-            "sortAttributes": false
-        }
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
     },
-    "eslint.trace.server": "verbose",
-    "workbench.startupEditor": "none",
-    "material-icon-theme.folders.associations": {
-        "server-middleware": "Server",
-        "foundation": "Lib",
-        "application": "Lib",
-        "ui": "Theme",
-        "single-instance": "Export"
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
     },
-    "material-icon-theme.folders.color": "#eb8596",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "One Candy",
-    "editor.semanticHighlighting.enabled": true,
-    "eslint.alwaysShowStatus": true,
-    "material-icon-theme.activeIconPack": "vue_vuex",
-    "editor.suggest.showStatusBar": true,
-    "terminal.integrated.defaultProfile.osx": "zsh",
+    "files.associations": {
+        ".env*": "dotenv"
+    },
     "typescript.preferences.quoteStyle": "single",
-    "files.autoSave": "onFocusChange",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.suggest.showSnippets": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
     "vim.leader": "\\",
     "vim.cursorStylePerMode.insert": "line",
     "vim.whichwrap": "b,s,>,<",
@@ -146,13 +40,21 @@
             "after": [
                 "A"
             ]
+        },
+        {
+            "before": [
+                "<C-f>"
+            ],
+            "after": [
+                "/"
+            ]
         }
     ],
     "vim.insertModeKeyBindings": [
         {
             "before": [
-                "f",
-                "f"
+                "v",
+                "v"
             ],
             "after": [
                 "<Esc>"
@@ -198,5 +100,54 @@
             ]
         }
     ],
+    "vim.handleKeys": {
+        "<C-k>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-a>": false,
+        "<C-w>": false
+    },
+    "editor.tabSize": 2,
+    "editor.fontFamily": "\"Fira Code\"",
+    "editor.fontLigatures": true,
+    "editor.inlineHints.fontFamily": "'Fira Code'",
+    "editor.fontWeight": "500",
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "window.menuBarVisibility": "toggle",
+    "files.insertFinalNewline": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.defaultDateShortFormat": "YYMMDD",
+    "gitlens.defaultDateFormat": "YYMMDD H:mm",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "keyboard.dispatch": "keyCode",
+    "workbench.productIconTheme": "fluent-icons",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "* @todo"
+    ],
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "scss",
+        "vue"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "tsimporter.emitSemicolon": false,
+    "eslint.workingDirectories": [
+        {
+            "directory": "./liger-hub-client",
+            "changeProcessCWD": true
+        }
+    ],
+    "editor.accessibilitySupport": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific"
 }
-

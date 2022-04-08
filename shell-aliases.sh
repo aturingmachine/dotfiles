@@ -15,5 +15,8 @@ alias gl="git log"
 alias ga="git add -p"
 
 # FS Aliases
-alias ls="ls -Ga"
-alias ll="ls -Gal"
+alias ls="ls -a --color=auto"
+alias ll="ls -al --color=auto"
+
+# Docker App Commands
+alias da="./bin/app"
