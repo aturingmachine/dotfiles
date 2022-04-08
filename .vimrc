@@ -8,6 +8,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set splitright
+set colorcolumn=72
 
 set cursorline 
 set mouse=a
@@ -25,8 +26,8 @@ augroup END
 " This is where we set custom leader mappings
 let mapleader = "\\"
 
-" jj will exit insert mode
-inoremap jj <Esc>
+" vv will exit insert mode
+inoremap vv <Esc>
 
 " ^s will save current buffer
 inoremap <C-s> :w <cr>
